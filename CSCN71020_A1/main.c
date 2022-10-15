@@ -19,10 +19,13 @@ void main() {
 
 	switch (inputNum)
 	{
-	case 1:
+	case 1: 
 		add();
+		break; //adding break statement
+
 	case 2:  //adding the call to the function here
 		subtract();
+		break; //adding break statement
 	}
 
 }
@@ -32,7 +35,7 @@ void printWelcomeMenu() {
 	printf("**   Welcome to the   **\n");
 	printf("**   BCS Calculator   **\n");
 	printf(" **********************\n");
-}
+}//adding break statement
 
 void printOptions() {
 	printf("1. Add\n");
