@@ -15,14 +15,16 @@ void main() {
 	int inputNum;
 
 	printf("Enter operation number: ");
-	scanf_s("%1o", &inputNum);
+	scanf_s("%d", &inputNum);
 
 	switch (inputNum)
 	{
 	case 1:
 		add();
+		break;
 	case 2:
 		subtract();
+		break;
 	}
 
 }
